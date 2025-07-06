@@ -38,7 +38,7 @@ body{
 }
 
 #main_body{
-    width: 880px;
+    max-width: 880px;
     margin: 30px auto;
     padding: 54px;
     background-color: var(--White);
@@ -149,6 +149,91 @@ table {
 }
 
 table td {
-    border-bottom: 1px solid black;
     padding: 15px 0 15px 40px
+}
+table .bor_bottom {
+    border-bottom: 1px solid black;
+
+}
+
+
+@media (max-width: 375px){
+
+    body{
+    font-size: 16px;
+}
+
+#main_body{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.main_body_mobile{
+
+    margin: 10px auto;
+    padding: 10px 30px 10px;
+    border-radius: 0;
+}
+
+.header_image>img{
+    border-radius: 0;
+}
+
+.recipe_header{
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+h2{ 
+    font-weight:200;
+    font-size: 1.7rem;
+}
+
+
+.preparation{
+    padding:20px 20px;
+    border-radius: 15px;
+    margin: 30px 0 25px 0;
+}
+
+.preparation>h3{
+    padding-bottom: 8px;
+    
+}
+
+.prep_ul{
+    padding-left: 20px;
+    
+}
+
+.prep_ul>li{
+    padding:5px 16px;
+    
+}
+
+.ingri_ul{
+    padding-left: 20px;
+}
+
+.ingri_ul>li{
+    padding:5px 16px;
+    
+}
+
+
+.instruct_ol{
+    padding: 15px 0 10px 20px;
+}
+
+.instruct_ol>li{
+    padding:5px 10px;
+    
+}
+
+
 }
