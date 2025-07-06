@@ -78,6 +78,13 @@ li::marker{
     color: var(--Brown_800);
     font-size: .7em;
 }
+
+hr{
+    border: none;
+    color: var(--Stone_100);
+    background-color: var(--Stone_150);
+    height: 1px;
+}
 .instruct_ol >li::marker{
     color: var(--Brown_800);
     font-size: 1em;
@@ -153,7 +160,7 @@ table td {
     padding: 15px 0 15px 40px
 }
 table .bor_bottom {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--Stone_150);
 
 }
 
