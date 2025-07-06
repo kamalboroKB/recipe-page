@@ -23,6 +23,7 @@
 }
 
 *{
+
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -138,7 +139,7 @@ li::marker{
     padding: 15px 0 10px 0;
 }
 
-.Nutri_table{
+.nutri_table{
     margin-top: 5px;
     padding: 15px 0 10px 0;
     width: 100%;
